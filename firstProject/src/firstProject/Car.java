@@ -1,5 +1,7 @@
 package firstProject;
 
+
+
 public class Car {
 	String name;
 	int number;
@@ -25,5 +27,9 @@ public class Car {
 	public Car(String name, int number) {
 		this.name = name;
 		this.number = number;
+	}
+	
+	public void run() {
+		System.out.println("달려~");
 	}
 }
